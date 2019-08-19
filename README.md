@@ -9,7 +9,9 @@ Conv+BiLSTM+Attention for Action Recognition
 # Dataset
 
 # Dataset Organisation
+```
 python extract_frames.py
+```
 
 # Model Architecture
 
