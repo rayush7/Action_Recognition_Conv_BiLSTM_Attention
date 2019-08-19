@@ -21,3 +21,6 @@ python train.py --dataset_path /home/ayush/Activity_Recognition/Action-Recogniti
 ```
 
 # Some Experimental Results
+
+# Credits
+* [Github Repository](https://github.com/eriklindernoren/Action-Recognition)
