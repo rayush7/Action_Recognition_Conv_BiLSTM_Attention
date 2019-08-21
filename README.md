@@ -4,13 +4,21 @@
 Conv+BiLSTM+Attention for Action Recognition
 
 ### Requirements
+* Python 3.7
+* PyTorch
 
 
 ### Dataset
+UCF-101 Dataset : [Click here](https://www.crcv.ucf.edu/data/UCF101.php)
 
 ### Dataset Setup
+The first step involves downloading the dataset and extracting the frames of the videos of the dataset.
 ```
-python extract_frames.py
+cd data/              
+bash download_ucf101.sh     # Downloads the UCF-101 dataset (~7.2 GB)
+unrar x UCF101.rar          # Unrars dataset
+unzip ucfTrainTestlist.zip  # Unzip train / test split
+python extract_frames.py   # Extracts frames from the video 
 ```
 
 ### Model Architecture
