@@ -29,6 +29,8 @@ python train.py --dataset_path /home/ayush/Activity_Recognition/Action-Recogniti
 ```
 
 ### Some Experimental Results
+* Num Classes : 101
+* Epochs : 200
 ![Loss Plot](https://github.com/rayush7/Action_Recognition_Conv_BiLSTM_Attention/blob/master/loss_plot.png)
 ![Accuracy Plot](https://github.com/rayush7/Action_Recognition_Conv_BiLSTM_Attention/blob/master/accuracy_plot.png)
 
