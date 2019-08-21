@@ -14,7 +14,7 @@ UCF-101 Dataset : [Click here](https://www.crcv.ucf.edu/data/UCF101.php)
 ### Dataset Setup
 The first step involves downloading the dataset and extracting the frames of the videos of the dataset.
 ```
-cd data/              
+cd data              
 bash download_ucf101.sh     # Downloads the UCF-101 dataset
 unrar x UCF101.rar          # Unrars dataset
 unzip ucfTrainTestlist.zip  # Unzip train / test split
